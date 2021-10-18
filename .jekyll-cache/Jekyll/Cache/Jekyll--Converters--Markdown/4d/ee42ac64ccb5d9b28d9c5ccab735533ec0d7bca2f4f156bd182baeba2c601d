@@ -1,8 +1,4 @@
-I"c
-<p>This is an example website for the module ‘The Cultural Web’ held at King’s Colelge London (2021-2022), built using Jekyll.</p>
-
-<h2 id="where-you-should-be-at">Where you should be at</h2>
-<p>You should all have created your own blog by now - if not the following is a quick sum-up of what we did to set it up:</p>
+I"�	<p>You should all have created your own blog using <a href="https://jekyllrb.com">Jekyll</a> by now - if not, the following is a quick sum-up of what we did to set it up:</p>
 
 <ol class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Fork https://github.com/barryclark/jekyll-now</li>
@@ -13,11 +9,11 @@
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create your first post</li>
 </ol>
 
-<p>As you can see, I haven’t ticked 3. since you haven’t seen that yet, but it’s good practice to work locally and use Git to sync your local repo with your remote repo (in your case, GitHub (Pages)).</p>
+<p>As you can see, I haven’t ticked point 3, since you haven’t seen that yet, but it’s good practice to work locally and use Git to sync your local repo with your remote repo (in your case, GitHub (Pages)).</p>
 
-<p>You should also have familiarized yourself with Markdown a little! It’s really easy and knowing a few extra tricks will make your blogging a bit more fun.</p>
+<p>You should also have familiarized yourself with Markdown a little. It’s really easy and knowing a few extra tricks will make your blogging a bit more fun.</p>
 
-<p><a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Here</a> is a Markdown cheat sheet (but you can Google stuff as needed - you’ll find a wealth of information, including <a href="https://github.com/jekyll/jemoji">how to add an emoji plug-in</a> to Jekyll  :umbrella:).</p>
+<p>:exclamation: :exclamation: :exclamation: <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Here</a> is a Markdown cheat sheet (but you can Google stuff as needed - you’ll find a wealth of information, including <a href="https://github.com/jekyll/jemoji">how to add an emoji plug-in</a> to Jekyll  :umbrella:).</p>
 
 <p>As you know, Jekyll is written in Ruby. You won’t need to know a lot about it, but grasping some of the basics will take you a long way. For the purpose of this module, perhaps the following will be more than enough:</p>
 <ul>
@@ -26,5 +22,5 @@
   <li>How to add stuff to the ‘Gemfile’</li>
 </ul>
 
-<p>This should however not take the focus away from your main goals here, of course: building your own DH website!</p>
+<p>This should however not take the focus away from your main goals here, which is building your own DH website.</p>
 :ET

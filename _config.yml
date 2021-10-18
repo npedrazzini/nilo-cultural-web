@@ -21,7 +21,7 @@ footer-links:
   email: nilo.pedrazzini@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: npedrazzini/nilo-cultural-web
   instagram:
   linkedin: https://www.linkedin.com/in/nilopedrazzini/
   pinterest:
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/nilo-cultural-web"
 
 #
 # !! You don't need to change any of the configuration flags below !!

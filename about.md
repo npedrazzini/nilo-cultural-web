@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 ### Contact me
-_Personal email address_:
+_Personal email_:
 [nilo.pedrazzini@gmail.com](mailto:nilo.pedrazzini@gmail.com)
 
-_Work email address_ (1):
+_Work email_ (1):
 [nilo.pedrazzini@ling-phil.ox.ac.uk](mailto:nilo.pedrazzini@ling-phil.ox.ac.uk)
 
-_Work email address_ (2):
+_Work email_ (2):
 [nilo.pedrazzini@kcl.ac.uk](mailto:nilo.pedrazzini@kcl.ac.uk)

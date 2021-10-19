@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Where you should be at
-tags: tech jekyll blog ruby
 ---
 You should all have created your own blog using [Jekyll](https://jekyllrb.com) by now - if not, the following is a quick sum-up of what we did to set it up:
 

@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
----
+---  
 
 ### Contact me
 _Personal email_:

@@ -1,5 +1,10 @@
-I"ö<h3 id="git-and-github-the-basics">Git and GitHub: the basics</h3>
+I"¤<h3 id="git-and-github-the-basics">Git and GitHub: the basics</h3>
 <h4 id="locally-create-a-jekyll-site-from-scratch-and-host-it-on-github">Locally create a Jekyll site from scratch and host it on Github</h4>
+
+<blockquote>
+  <p>Demonstration by Daniel <a href="https://keats.kcl.ac.uk/mod/kalvidres/view.php?id=5721657">here</a></p>
+</blockquote>
+
 <ol>
   <li>Create a local empty repository (<code class="language-plaintext highlighter-rouge">mkdir nameofthenewfolder</code>)</li>
   <li>Move into that repository (<code class="language-plaintext highlighter-rouge">cd nameofthenewfolder</code>) and initialize Git (i.e. Git version control) (<code class="language-plaintext highlighter-rouge">git init</code>).</li>
@@ -52,6 +57,8 @@
   </li>
   <li>Just below these lines, write your blog post, test it, and push it to GitHub when youâ€™re ready.</li>
 </ol>
+
+<h3 id="footnotes">Footnotes</h3>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>

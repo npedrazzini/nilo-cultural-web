@@ -3,7 +3,7 @@ layout: post
 title: "Wildlife Photographer of the Year: Gallery Visit"
 ---
 
-Visit [here](https://www.nhm.ac.uk/wpy/).
+> Visit [here](https://www.nhm.ac.uk/wpy/).
 
 ### Background
 Running since 1964, the Wildlife Photographer of the Year is a prestigious international wildlife photography competition, organized and awarded by the Natural History Museum in London, England. 
@@ -16,7 +16,7 @@ A selection of thumbnail-sized winning and commended photographs are immediately
 What does it allow you to choose? What tags/categories?
 
 ### Overall User Experience (UX)
-UX assessment is a complex task: focus on those aspects which you think are relevant for your goals. A couple of resources (papers) on assessing UX of online museum collections are ([^1]) and ([^2])). ([^1]) has a table with a series of comments from bad to excellent regarding different aspects of UX. You can use that as a guidelines on the type of aspects you might want to address.
+UX assessment is a complex task: focus on those aspects which you think are relevant for your goals. A couple of resources (papers) on assessing UX of online museum collections are ([^1]) and ([^2]). ([^1]) has a table with a series of comments from bad to excellent regarding different aspects of UX. You can use that as a guidelines on the type of aspects you might want to address.
 
 [^1]: [https://mw2015.museumsandtheweb.com/paper/assessing-the-user-experience-ux-of-online-museum-collections-perspectives-from-design-and-museum-professionals/](https://mw2015.museumsandtheweb.com/paper/assessing-the-user-experience-ux-of-online-museum-collections-perspectives-from-design-and-museum-professionals/)
 

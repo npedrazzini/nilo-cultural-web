@@ -1,0 +1,92 @@
+I" <ol>
+  <li>
+    <blockquote>
+      <p><code class="language-plaintext highlighter-rouge">bash: jekyll: command not found</code></p>
+    </blockquote>
+
+    <p>Why: you have not set your RubyGems PATH correctly when you installed Ruby.
+ At least these paths should be in your $PATH variable:</p>
+    <ul>
+      <li>/usr/local/bin</li>
+      <li>/usr/bin</li>
+      <li>/bin</li>
+      <li>/usr/local/opt/ruby/bin</li>
+      <li>/usr/local/lib/ruby/gems/3.0.0/bin
+ When your run <code class="language-plaintext highlighter-rouge">echo $PATH</code> they should appear in this order:</li>
+    </ul>
+
+    <p><code class="language-plaintext highlighter-rouge">/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/bin:/usr/bin</code></p>
+
+    <p>Note that each PATH is separated by a colon : and the order matters! If you played around with other package or added other PATHs to the above, yours might look a bit different, but as long as the relative order between the PATHs indicated above is respected that should be OK.</p>
+
+    <p>How to fix the PATH if it’s messed up. 
+ Run:
+ <code class="language-plaintext highlighter-rouge">open ~/.bash_profile</code>
+ This should open the file .bash_profile in a text editor. It didn’t? Well, then you probably messed up more than you thought. If running this command does nothing, then your .bash_profile is probably only corrupted (i.e. it contains lines that are badly written). You have to open it manually:</p>
+
+    <ul>
+      <li>On the top bar in your Mac, go to <strong>Go &gt; Computer &gt; Macintosh HD &gt; Users &gt; yourusername</strong>.</li>
+      <li>Press <strong>Command + Shift + .</strong> (dot/full stop) to show hidden files.</li>
+      <li>Open .bash_profile</li>
+    </ul>
+
+    <p>If by running <code class="language-plaintext highlighter-rouge">open ~/.bash_profile</code> you get an error saying the file doesn’t exist, then you messed up worse than you thought. You probably deleted the file by mistake. Create a new one by running:
+ <code class="language-plaintext highlighter-rouge">touch ~/.bash_profile</code>
+ Then open it.</p>
+
+    <p>Once you opened your .bash_profile, add the following two lines to the bottom of the file, in this order:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"</code></p>
+
+    <p>Note: this is the same (just the manual way) as running:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">echo 'export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"' &gt;&gt; ~/.bash_profile</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$PATH"' &gt;&gt; ~/.bash_profile</code></p>
+  </li>
+  <li>
+    <blockquote>
+      <p>Old blog posts showed correctly, new ones don’t.</p>
+    </blockquote>
+
+    <p>Why: you probably did not name the blog post file correctly. The name format of a Jekyll blog post is very rigid. It needs to start with a date and have the following shape:</p>
+
+    <p><strong>YYYY-MM-DD-yourtitle.md</strong></p>
+
+    <p>Where YYYY is the year, MM the month and DD the day. No other format allowed.</p>
+  </li>
+  <li>
+    <blockquote>
+      <p>I’ve tested the blog locally using jekyll serve and it worked, then I pushed it to GitHub and the website did not update.</p>
+    </blockquote>
+
+    <p>Well, chances are that you just have to WAIT! It takes time, up to a few hours sometimes.</p>
+  </li>
+  <li>
+    <blockquote>
+      <p>You haven’t tested your blog before pushing it and your GitHub page doesn’t show/has a weird layout/etc.</p>
+    </blockquote>
+
+    <p>Well… you should have tested it before. That’s the easiest way to find out where you went wrong. By running 
+ <code class="language-plaintext highlighter-rouge">jekyll serve</code> you get messages about what the problem is. For example: you added characters to the YAML frontmatter that are not allowed.</p>
+  </li>
+  <li>
+    <blockquote>
+      <p>When you run <code class="language-plaintext highlighter-rouge">jekyll serve</code> you get an error about <code class="language-plaintext highlighter-rouge">webrick</code> not being installed.</p>
+    </blockquote>
+
+    <p>Just run:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">bundle add webrick</code>
+ <code class="language-plaintext highlighter-rouge">bundle install</code></p>
+
+    <p>Try <code class="language-plaintext highlighter-rouge">jekyll serve</code> again. If you still get an error, try serving jekyll via bundler:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></p>
+
+    <p>And if this works it probably means that for some reason you are running jekyll on a different Ruby version than the one required by your jekyll website. Keep using <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> from now on and contact me directly to solve the issue.</p>
+  </li>
+</ol>
+:ET

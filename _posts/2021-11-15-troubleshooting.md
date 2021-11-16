@@ -11,23 +11,26 @@ title: Troubleshooting of common Terminal issues
     - /bin
     - /usr/local/opt/ruby/bin
     - /usr/local/lib/ruby/gems/3.0.0/bin
+
     When your run `echo $PATH` they should appear in this order:
 
     `/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/bin:/usr/bin`
 
-    Note that each PATH is separated by a colon : and the order matters! If you played around with other package or added other PATHs to the above, yours might look a bit different, but as long as the relative order between the PATHs indicated above is respected that should be OK.
+    Note that each PATH is separated by a colon : and the order matters! If you played around with other packages or added other PATHs to the above, yours might look a bit different, but as long as the relative order between the PATHs indicated above is respected that should be OK.
 
     How to fix the PATH if it's messed up. 
     Run:
     `open ~/.bash_profile`
-    This should open the file .bash_profile in a text editor. It didn't? Well, then you probably messed up more than you thought. If running this command does nothing, then your .bash_profile is probably only corrupted (i.e. it contains lines that are badly written). You have to open it manually:
+    This should open the file .bash_profile in a text editor. If running this command does nothing, then your .bash_profile is probably only corrupted (i.e. it contains lines that are badly written). You have to open it manually:
 
     - On the top bar in your Mac, go to **Go > Computer > Macintosh HD > Users > yourusername**. 
     - Press **Command + Shift + .** (dot/full stop) to show hidden files.
     - Open .bash_profile
 
     If by running `open ~/.bash_profile` you get an error saying the file doesn't exist, then you messed up worse than you thought. You probably deleted the file by mistake. Create a new one by running:
+
     `touch ~/.bash_profile`
+    
     Then open it.
 
     Once you opened your .bash_profile, add the following two lines to the bottom of the file, in this order:
